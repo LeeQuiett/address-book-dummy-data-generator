@@ -1,4 +1,4 @@
-# phone-book-dummy-data-generator
+# address-book-dummy-data-generator
 
 - 전화번호부의 더미 데이터를 생성하고 이를 파일에 저장하는 기능을 수행합니다.
 
