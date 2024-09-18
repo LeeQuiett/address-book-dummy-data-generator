@@ -18,16 +18,13 @@
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="treeTest.c">
+    <ClCompile Include="test_Tree.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="testIntPhoneNumber.c">
+    <ClCompile Include="test_IntPhoneNumber.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="testCode01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="testScanf.c">
+    <ClCompile Include="test_PrintCode01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

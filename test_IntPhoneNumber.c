@@ -4,7 +4,7 @@
 #include <string.h>
 #include <time.h>
 
-#define NUM_RECORDS 10000
+#define NUM_RECORDS 10000000
 #define TEL_LENGTH 12
 #define NAME_LENGTH 12
 #define ADDR_LENGTH 100
@@ -49,10 +49,13 @@ void generate_random_korean_name(char* name) {
         given_names[rand() % (sizeof(given_names) / sizeof(given_names[0]))],
         given_names[rand() % (sizeof(given_names) / sizeof(given_names[0]))]);
 }
-
+    
 // 무작위 전화번호 생성 함수
 void generate_random_tel(int* tel) {
-    *tel = rand() % 100000000;
+    int part1 = rand() % 10000; // 앞자리 부분 생성
+    int part2 = rand() % 10000; // 뒷자리 부분 생성
+    *tel = part1 * 10000 + part2;
+    //*tel = rand() % 100000000;
     // snprintf(tel, TEL_LENGTH, "010-%04d-%04d", rand() % 10000, rand() % 10000);
 }
 
