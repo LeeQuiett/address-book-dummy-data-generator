@@ -170,7 +170,7 @@ void generate_random_korean_name(char* name) {
 
 <!--# address-book-dummy-data-generator-->
 
-## ver1에서 개선한 내용
+## ver 0 대비 주요 개선 사항
 
 ### 전화번호 중복 검증
 ### 더미 데이터 생성 시 실행 시간 3시간 이상(100만개) -> 30초 미만(1000만개)으로 단축
